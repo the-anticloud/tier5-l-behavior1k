@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_BEHAVIOR1K",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.0181818181818185
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.0181818181818185,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py\n    F 77:0 main - B (9)\n    F 61:0 load_scene_models - B (6)\n    F 50:0 load_b100_order - A (3)\n    F 42:0 title_case - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py\n    F 90:0 generate_combined_leaderboard - B (7)\n    F 28:0 load_submissions - B (6)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_task_pages.py\n    F 605:0 generate_gallery - C (11)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\eval-jobqueue\\check_results.py\n    F 81:0 check_jobs - C (15)\n    F 63:0 load_task_instances - B (10)\n    F 163:0 main - A (3)\n    F 22:0 parse_args - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\eval-jobqueue\\generate_jobs.py\n    F 196:0 build_jobs - C (15)\n    F 66:0 load_task_instances - B (10)\n    F 84:0 create_pseudo_resource_groups - B (10)\n    F 156:0 find_compatible_pseudo_group - B (10)\n    F 290:0 main - B (6)\n    F 25:0 parse_args - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\eval-jobqueue\\jobqueue.py\n    F 309:0 reclaim_stale_jobs - B (7)\n    M 101:4 ResourcePool.acquire - A (5)\n    F 194:0 load_jobs - A (4)\n    F 231:0 select_next_job - A (4)\n    F 285:0 heartbeat_all_jobs_for_worker - A (4)\n    F 405:0 acquire_resource - A (4)\n    C",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\bddl3\\setup.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py - A (67.92)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py - A (57.27)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_ref_pages.py - A (84.49)\nE:\\fenta\\Downloads\\The Anticlou"
+  }
+}

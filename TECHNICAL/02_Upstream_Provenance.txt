@@ -1,0 +1,28 @@
+ Upstream Provenance
+
+Project: L_BEHAVIOR1K  
+Tier: TIER_5_WORLD_NEURO_EMBODIED  
+Identity: Upstream StanfordVL/BEHAVIOR-1K @ bd049de3119a (MIT)
+
+ Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | StanfordVL/BEHAVIOR-1K |
+| Commit | bd049de3119acdcdf2334fe9e1ebe060fa20c108 |
+| Upstream licence | MIT |
+| Licence class | permissive |
+| Clone size | 547.57 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1000.0 IIU |
+| Verified upstream edits | 1 |
+
+ Obligation
+
+L_BEHAVIOR1K is vendored under MIT (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+anticloud-edits.json; the notice of changes is at the project NOTICE.md.
+Where the licence class is unknown, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

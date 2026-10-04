@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "L_BEHAVIOR1K",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 7.94,
+    "pylint_score_max": 10.0,
+    "status": "PASS",
+    "raw_output": "************* Module setup\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\bddl3\\setup.py:3:1: W0511: TODO package data (fixme)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\bddl3\\setup.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\bddl3\\setup.py:5:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\n************* Module gen_2026_task_data\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py:9:0: C0301: Line too long (102/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py:120:0: C0301: Line too long (104/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py:53:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_2026_task_data.py:77:0: C0116: Missing function or method docstring (missing-function-docstring)\n************* Module gen_leaderboard\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:98:0: C0301: Line too long (133/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:111:0: C0301: Line too long (111/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:112:0: C0301: Line too long (117/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:114:0: C0301: Line too long (113/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:6:0: E0401: Unable to import 'mkdocs_gen_files' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:30:18: R1735: Consider using '{}' instead of a call to 'dict'. (use-dict-literal)\nTIER_5_WORLD_NEURO_EMBODIED\\L_BEHAVIOR1K\\UPSTREAM\\docs\\gen_leaderboard.py:66:15: W0718: Catching too general exception Except"
+  }
+}

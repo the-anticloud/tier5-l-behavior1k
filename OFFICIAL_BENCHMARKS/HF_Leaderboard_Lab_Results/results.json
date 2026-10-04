@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_BEHAVIOR1K",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "StanfordVL/BEHAVIOR-1K",
+  "commit": "bd049de3119a",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 51.34,
+      "min": 40.45,
+      "max": 61.06,
+      "all": [
+        57.56,
+        61.06,
+        50.03,
+        47.62,
+        40.45
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_BEHAVIOR1K (StanfordVL/BEHAVIOR-1K) \u2014 4078 files, 166918 source lines, licence MIT, primary language ['Python']",
+      "token_count": 38,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "behavior",
+        "##1",
+        "##k",
+        "(",
+        "stanford",
+        "##v",
+        "##l",
+        "/",
+        "behavior",
+        "-",
+        "1",
+        "##k",
+        ")",
+        "\u2014",
+        "407",
+        "##8",
+        "files"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5898,
+      "classification_latency_ms": 95.97,
+      "status": "PASS"
+    }
+  }
+}

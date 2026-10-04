@@ -1,0 +1,21 @@
+{
+  "benchmark": "OWASP_Lab_Results",
+  "project": "L_BEHAVIOR1K",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 3503764865,
+    "simulated_inference_latency_ms": 53.3,
+    "simulated_throughput_samples_per_sec": 18.8,
+    "simulated_accuracy": 0.8749,
+    "simulated_avg_token_count": 90,
+    "simulated_memory_mb": 214.2,
+    "simulation_basis": {
+      "source_lines": 166918,
+      "tracked_files": 4078,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 547.57
+    }
+  }
+}
